@@ -157,7 +157,7 @@ ramips_setup_interfaces()
 	gb-pc1|\
 	gnubee,gb-pc2)
 		ucidef_add_switch "switch0" \
-			"0:lan" "4:lan" "6@eth0"
+			"0:lan" "4:wan" "6@eth0"
 		;;
 	awapn2403)
 		ucidef_add_switch "switch0" \
